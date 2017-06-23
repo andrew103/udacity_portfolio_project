@@ -1,0 +1,124 @@
+/*
+  Responsive adaptations
+*/
+
+@media screen and (max-width: 1199px) {
+  .pic-name {
+    font-size: 50px;
+  }
+
+  .link {
+    font-size: 40px;
+  }
+
+  .hexcode {
+    color: #878b91;
+    font-size: 25px;
+  }
+
+  #myname {
+    font-size: 60px;
+  }
+
+  #mytitle {
+    font-size: 30px;
+  }
+
+  #featured-title {
+    font-size: 60px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .pic-name {
+    font-size: 30px;
+  }
+
+  .link {
+    word-break: break-all;
+    font-size: 20px;
+  }
+
+  .hexcode {
+    color: #878b91;
+    font-size: 20px;
+  }
+}
+
+
+/*
+  Common tags
+*/
+
+header {
+  font-family: "Open Sans Condensed";
+}
+
+main {
+  font-family: "Ubuntu";
+}
+
+
+/*
+  Classes
+*/
+
+.content {
+  padding: 30px;
+}
+
+.header {
+  border-bottom: 2px solid #7d97ad;
+}
+
+.sidebar {
+  float: left;
+  width: 20%;
+}
+
+.left-float {
+  float: left;
+}
+
+.right-float {
+  float: right;
+}
+
+.htmlmeta {
+  width: 80%
+}
+
+.featured {
+  text-align: center;
+  width: 100%;
+}
+
+
+/*
+  IDs
+*/
+
+#logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+}
+
+#box1 {
+  height: 48px;
+  width: 48px;
+  background-color: #02b3e4;
+}
+
+#box2 {
+  height: 48px;
+  width: 48px;
+  background-color: #2d3c49;
+}
+
+#box3 {
+  height: 48px;
+  width: 48px;
+  background-color: #7d97ad;
+}
