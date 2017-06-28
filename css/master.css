@@ -108,17 +108,17 @@ main {
 #box1 {
   height: 48px;
   width: 48px;
-  background-color: #02b3e4;
+  background: #02b3e4;
 }
 
 #box2 {
   height: 48px;
   width: 48px;
-  background-color: #2d3c49;
+  background: #2d3c49;
 }
 
 #box3 {
   height: 48px;
   width: 48px;
-  background-color: #7d97ad;
+  background: #7d97ad;
 }
