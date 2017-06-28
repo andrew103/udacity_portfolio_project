@@ -8,23 +8,22 @@
   }
 
   .link {
+    word-break: break-all;
     font-size: 40px;
   }
 
-  .hexcode {
-    color: #878b91;
-    font-size: 25px;
-  }
-
   #myname {
+    word-break: break-all;
     font-size: 60px;
   }
 
   #mytitle {
+    word-break: break-all;
     font-size: 30px;
   }
 
   #featured-title {
+    word-break: break-all;
     font-size: 60px;
   }
 }
@@ -39,11 +38,6 @@
     word-break: break-all;
     font-size: 20px;
   }
-
-  .hexcode {
-    color: #878b91;
-    font-size: 20px;
-  }
 }
 
 
@@ -53,6 +47,7 @@
 
 header {
   font-family: "Open Sans Condensed";
+  border-bottom: 2px solid #7d97ad;
 }
 
 main {
@@ -64,29 +59,16 @@ main {
   Classes
 */
 
-.content {
-  padding: 30px;
+.header-logo {
+    text-align: left;
 }
 
-.header {
-  border-bottom: 2px solid #7d97ad;
-}
-
-.sidebar {
-  float: left;
-  width: 20%;
-}
-
-.left-float {
-  float: left;
-}
-
-.right-float {
-  float: right;
+.header-text {
+    text-align: right;
 }
 
 .htmlmeta {
-  width: 80%
+  width: 100%
 }
 
 .featured {
@@ -103,22 +85,4 @@ main {
   height: 50px;
   width: 50px;
   margin-top: 20px;
-}
-
-#box1 {
-  height: 48px;
-  width: 48px;
-  background: #02b3e4;
-}
-
-#box2 {
-  height: 48px;
-  width: 48px;
-  background: #2d3c49;
-}
-
-#box3 {
-  height: 48px;
-  width: 48px;
-  background: #7d97ad;
 }
